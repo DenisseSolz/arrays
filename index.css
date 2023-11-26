@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 5%;
+    border: blue 1px solid;
+}
+
+.content > div{
+    border: black 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
